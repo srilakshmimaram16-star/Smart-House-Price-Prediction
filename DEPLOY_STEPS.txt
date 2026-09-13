@@ -1,0 +1,7 @@
+1. Replace your old project files with this project.
+2. In VS Code terminal run: pip install -r requirements.txt
+3. Run: python setup.py
+4. Run locally: python app.py
+5. For Render, use Build Command: pip install -r requirements.txt && python setup.py
+6. Render Start Command: gunicorn app:app
+7. Runtime is Python 3.11.11 (runtime.txt).
